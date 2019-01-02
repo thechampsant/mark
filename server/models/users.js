@@ -9,7 +9,7 @@ var User = mongoose.model('User',{
        minlength:1,
    }, 
    MobileNumber:{
-        type: Number,
+        type: String,
         required:true,
         minlength:10,
         maxlength:10
@@ -18,7 +18,7 @@ var User = mongoose.model('User',{
         type:String,
     },
     Area:{
-        type:Number,
+        type:String,
         required:true
     },
     Password:{

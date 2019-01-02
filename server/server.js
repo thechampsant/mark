@@ -6,7 +6,7 @@ var {User} = require('./models/users');
 
 var app = express();
 
-var pinCodes = [713301,713303,713305];
+var pinCodes = ["713301","713303","713305"];
 
 var port = process.env.PORT || 3000;
 
